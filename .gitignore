@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.cache/
+.vite/
+.env
+.env.*.local
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# ESLint
+.eslintcache
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+docker-compose.override.yml
+docker-compose.dev.yml
+*.container
+*.pid
+
+# Docker volumes and runtime files
+**/tmp/
+**/var/
+**/run/
+**/.docker/
+
+# Ignore docker named volumes (if mapped to folders)
+data/
+db/
+postgres/
