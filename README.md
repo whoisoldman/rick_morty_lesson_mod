@@ -1,8 +1,21 @@
-# React + Vite
+# Rick and Morty — Homework Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📚 Домашнее задание по курсу React.
+Отображение данных из [Rick and Morty API](https://rickandmortyapi.com/):
 
-Currently, two official plugins are available:
+## 🔧 Функционал
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Список эпизодов в виде раскрывающегося списка
+- Список локаций — также в collapsible формате
+- Детальная информация по каждому элементу
+- Адаптивная стилизация через CSS
+- Работа с хуками и компонентами
+- Линтинг и автоформатирование через Prettier, ESLint, Husky
+
+## 🚀 Установка и запуск
+
+```bash
+pnpm install
+pnpm run dev
+```
+Открыть в браузере: http://localhost:5173
