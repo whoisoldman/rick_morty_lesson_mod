@@ -1,9 +1,11 @@
+/* ===== Глобальный фон и текст ===== */
 body {
   margin: 0;
   background-color: #27374d;
   font-family: "Arial", sans-serif;
 }
 
+/* ===== Эпизоды (карточки) ===== */
 .episode {
   margin-bottom: 5px;
   padding: 10px;
@@ -12,6 +14,7 @@ body {
   color: #dde6ed;
 }
 
+/* ===== Контейнер персонажей ===== */
 .characters-container {
   display: flex;
   flex-wrap: wrap;
@@ -19,6 +22,7 @@ body {
   padding: 10px;
 }
 
+/* ===== Карточка персонажа ===== */
 .character {
   width: 300px;
   height: 140px;
@@ -34,16 +38,20 @@ body {
   margin-top: 5px;
 }
 
+/* ===== Цвет по статусу ===== */
 .character-alive {
   background-color: #c7f0db;
 }
+
 .character-dead {
   background-color: #f0c7c7;
 }
+
 .character-unknown {
   background-color: #ffffff;
 }
 
+/* ===== Стороны карточки ===== */
 .character-left {
   flex: 2;
   min-width: 120px;
@@ -59,4 +67,14 @@ body {
   flex: 3;
   padding: 10px;
   overflow: hidden;
+}
+
+/* ===== Карточка локации ===== */
+.location-card {
+  border: 1px solid #dde6ed;
+  background-color: #9db2bf;
+  color: #27374d;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
 }
